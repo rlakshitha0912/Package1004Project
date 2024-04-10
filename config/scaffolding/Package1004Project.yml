@@ -22,6 +22,8 @@ configurationVariables:
   : ORACLE
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.otherProperties
   : loginTimeout=60;
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.driverType
+  : Progress® DataDirect®
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.expireTimeout
   : "1000"
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.databaseName
@@ -30,20 +32,10 @@ configurationVariables:
   : "false"
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.oracle.OracleDataSource
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionEnabled
-  : "false"
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.maximumPoolSize
-  : "10"
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.keyStore
-  : ""
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.serverName
-  : adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
-  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.driverType
-  : Progress® DataDirect®
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.startupBackoffSecs
   : "10"
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.blockingTimeout
+  : "1000"
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.trustStore
   : ""
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.poolIncrementSize
@@ -56,8 +48,16 @@ configurationVariables:
   : "{AES}gOk3wygfWVjWqDc4SLehnQ=="
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.portNumber
   : "1521"
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionEnabled
+  : "false"
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.keyStore
+  : ""
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.heartBeatInterval
   : "0"
+  ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionSettings.serverName
+  : adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.minimumPoolSize
   : "0"
   ? artConnection.Package1004Project.project.package1004.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testAcct.connectionManagerSettings.startupRetryCount
