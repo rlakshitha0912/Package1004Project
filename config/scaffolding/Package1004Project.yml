@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Package1004Project
+  gitServerName: testPackage
+  gitUrl: https://github.com/rlakshitha0912/Package1004Project
+  gitUsername: rlakshitha0912
+  gitBranch: main
